@@ -1,3 +1,4 @@
+document.addEventListener("DOMContentLoaded", () => {
 let shareCount = 0;
 const shareBtn = document.getElementById('whatsappBtn');
 const counter = document.getElementById('clickCounter');
@@ -79,4 +80,5 @@ form.addEventListener('submit', async (e) => {
   } else {
     alert("Something went wrong. Please try again.");
   }
+});
 });
