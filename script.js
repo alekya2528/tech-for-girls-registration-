@@ -66,7 +66,7 @@ form.addEventListener('submit', async (e) => {
   formData.append("college", college);
   formData.append("file", file);
 
-  const response = await fetch("https://script.google.com/macros/s/AKfycbx3QJtP2agujE0k_JwQK3t2lhueaXAxWYoHhKUk6epiDy47oMqU_fZRF4XayYMq6eWC/exec", {
+  const response = await fetch("https://script.google.com/macros/library/d/1R4MD_wKwxmA16vI-01qQYAkXPeE8JqAGnuRf1VjEzglaiema7w27qu0r/1", {
     method: "POST",
     body: formData,
   });
